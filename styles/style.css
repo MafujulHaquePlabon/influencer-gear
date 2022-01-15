@@ -187,4 +187,42 @@ body {
       .ficon{
         padding:0 14px;
       }
-      
+
+     
+ /*-----------------------
+      Media queries 
+  -----------------------*/
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+    .container {
+      width: 100%;
+    }
+    .half-width-left,
+    .half-width-right {
+      flex-direction: column;
+    }
+    .product,
+    .half-width {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* tablet deviecs */
+  @media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container {
+      width: 100%;
+    }
+    .products,
+    .container1 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .container4 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-section{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+  }
