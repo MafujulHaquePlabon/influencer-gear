@@ -20,11 +20,11 @@ body {
   padding: 15px 30px;
   border-radius: 25px;
 }
-header {
+.container1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
@@ -93,6 +93,7 @@ header {
            width: 1027px;
            height: 1675px;
            margin-left: 110px;
+           margin-bottom: 100px;
        }  
 
 
@@ -142,3 +143,48 @@ header {
     .see-more-button .right-shift{
         margin-right: 5px;
     }
+    .container4{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom:50px;
+    }
+    .container4 .half-width .section4-left{
+        margin-left: 90px;
+    }
+ .container4 .half-width .section4-right{
+     margin-top: 55px;
+     margin-right: 90px;
+ }
+
+     .half-width .join-now-button{
+        text-decoration: none;
+        background-color: var(--button-background-color);
+        color: var(--button-font-color);
+        padding: 15px 30px;
+     }
+
+     /* footer section styles */
+     .footer-section {
+        width: 100%;
+        height: 300px;
+        color: white;
+        background-color: black;
+       
+      }
+      .last-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .ft-info {
+        margin-top: 70px;
+       
+      }
+      .ft-text{
+          margin-bottom:1px ;
+      }
+      .ficon{
+        padding:0 14px;
+      }
+      
