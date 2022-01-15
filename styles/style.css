@@ -1,0 +1,71 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ---Variables--- */
+:root{
+    --button-background-color: #E02C6D;
+    --button-font-color:white;
+    --nav-minu-color:#eab676;
+    --camera-hover-background-color:#e8edf2;
+}
+/* header section style  */
+.left-half-width .preebook-now-button{
+    text-decoration: none;
+    background-color:var(--button-background-color);
+    color:var(--button-font-color);
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+align-items: flex-start;
+
+}
+.half-width{
+    width: 50%;
+    padding: 30px;
+}
+.half-width .left-half-width{
+    margin-left: 60px;
+    
+}
+.half-width .right-half-width{
+    margin-right: 40px;
+    
+}
+.half-width .right-half-width> ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.half-width .right-half-width> ul> li:hover a{
+    background-color:var(--nav-minu-color);
+}
+.half-width .right-half-width> ul>li{
+    list-style: none;
+}
+.half-width .right-half-width> ul>li>a{
+    text-decoration: none;
+    color: black;
+   font-weight: 600px;
+}
+.left-half-width> h1> span{
+    display: block;
+
+}
+.half-width img{
+width: 70%;
+margin-left: 45px;
+padding-top: 40px;
+}
+.half-width img:hover{
+    transform:scalex(1.4) rotate(360deg);
+
+    transition: transform 3s ease-out;
+    background-color:var(--camera-hover-background-color);
+    border-radius: 100px;
+
+}
